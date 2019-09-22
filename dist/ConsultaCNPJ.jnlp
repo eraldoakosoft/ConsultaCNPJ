@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ConsultaCNPJ.jnlp">
+  <information>
+    <title>ConsultaCNPJ</title>
+    <vendor>erald</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ConsultaCNPJ.jar" size="7978" download="eager" />
+    <jar href="lib\commons-codec-1.11.jar" size="335042" download="eager" />
+    <jar href="lib\commons-logging-1.2.jar" size="61829" download="eager" />
+    <jar href="lib\fluent-hc-4.5.10.jar" size="31547" download="eager" />
+    <jar href="lib\httpclient-4.5.10.jar" size="774640" download="eager" />
+    <jar href="lib\httpclient-cache-4.5.10.jar" size="164197" download="eager" />
+    <jar href="lib\httpclient-osgi-4.5.10.jar" size="1365205" download="eager" />
+    <jar href="lib\httpclient-win-4.5.10.jar" size="17847" download="eager" />
+    <jar href="lib\httpcore-4.4.12.jar" size="328347" download="eager" />
+    <jar href="lib\httpmime-4.5.10.jar" size="41792" download="eager" />
+    <jar href="lib\jna-4.5.2.jar" size="1484022" download="eager" />
+    <jar href="lib\jna-platform-4.5.2.jar" size="2327597" download="eager" />
+    <jar href="lib\json-simple-1.1.1.jar" size="23737" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="ConsultaCNPJ" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="consultacnpj.ConsultaCNPJ"  name="ConsultaCNPJ" />
+  <update check="always"/>
+</jnlp>
